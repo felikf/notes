@@ -1,0 +1,1 @@
+$('#qcbug_input').focus();

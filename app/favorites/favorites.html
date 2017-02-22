@@ -1,0 +1,6 @@
+<ul>
+    <li ng-repeat="fav in favorites">
+        <a href="{{fav.href}}">{{fav.text}}</a>  <small>{{fav.count}}</small>
+        <a href="#" ng-click="removeFavorite(fav.text)"><small>x</small></a>
+    </li>
+</ul>
